@@ -1,0 +1,50 @@
+.webb{
+    text-align: center;
+    font-size: 70px;
+    margin: 10px;
+    font-style: oblique;
+}
+.webb2{
+    font-style: oblique;
+    font-size: 30px;
+    margin: 30px;
+    margin-left: -5px;
+}
+.webb3{
+    font-style: oblique;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.webb4{
+    font-style: oblique;
+    font-size: 25px;
+    margin: 30px;
+    margin-left: -5px;
+}
+.webb5{
+    font-size: 15px;
+    font-style: oblique;
+    position: absolute;
+    top: 5px;
+}
+.trademark{
+    font-size: 20px;
+    font-style: oblique;
+    position: absolute;
+    top: 55px;
+}
+.webb6{
+    font-size: 25px;
+    font-style: oblique;
+    position: absolute;
+    right: 25px;
+    top: 95px;
+}
+.webb7{
+    font-size: 22px;
+    font-style: oblique;
+    position: absolute;
+    right: 30px;
+    top: 115px;
+}
