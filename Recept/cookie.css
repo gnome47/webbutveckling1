@@ -1,0 +1,40 @@
+.title{
+    position: relative;
+    left: 27%;
+    font-style: italic;
+    line-height: 4;
+}
+
+.title2{
+    font-size: 18px;
+}
+
+div.text{
+    position: relative;
+    left: 27%;
+    font-style: italic;
+}
+
+div.text2{
+    position: relative;
+    left: 29%;
+    font-style: italic;
+    line-height: 3;
+}
+
+.text1{
+    font-size: 25px;
+}
+
+br {
+    display: block;
+    content: "";
+    margin-top: 10px;
+ }
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+  }
