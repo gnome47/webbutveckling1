@@ -1,0 +1,112 @@
+.grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+  .grid-item{
+    padding: 30px;
+    display: grid;
+    place-items: center;
+  }
+
+  .button{
+    appearance: button;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+    color: #fff;
+    text-shadow:
+        0 0 7px #39FF14,
+        0 0 10px #39FF14,
+        0 0 21px #39FF14,
+        0 0 42px #AEFE14,
+        0 0 82px #AEFE14,
+        0 0 92px #AEFE14,
+        0 0 102px #AEFE14,
+        0 0 151px #AEFE14;
+        background-color: rgb(2, 39, 6);
+  }
+  
+  .button:after {
+    background-clip: padding-box;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .button
+  .button:focus {
+    user-select: auto;
+  }
+  
+  .button:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .button:disabled {
+    cursor: auto;
+  }
+  
+  .button:active {
+    border-width: 4px 0 0;
+    background: none;
+  }
+
+  .neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #39FF14,
+        0 0 10px #39FF14,
+        0 0 21px #39FF14,
+        0 0 42px #AEFE14,
+        0 0 82px #AEFE14,
+        0 0 92px #AEFE14,
+        0 0 102px #AEFE14,
+        0 0 151px #AEFE14;
+        text-align: center;
+  }
+  
+    
+  body {
+    font-size: 18px;
+    font-family: "Vibur", sans-serif;
+    background-image: url(https://wallpapercave.com/wp/Uddie8b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }  
+  
+
+  .ttl{
+    text-align: center;
+}

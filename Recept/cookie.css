@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden
+
+}
+
 .title{
     position: relative;
     left: 27%;
@@ -38,3 +45,10 @@ br {
     margin-right: auto;
     width: 45%;
   }
+
+.back{
+    font-size: 15px;
+    font-style: oblique;
+    position: absolute;
+    top: 5px;
+}
