@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <input type="text" name="" id="förnamn">
+    <input type="text" name="" id="efternamn">
+    
+    <button onclick="skapaEmail()">Gör din E-mail</button>
+
+    <p id="resultat">Din mailadress blir</p>
+<script>
+
+document.body.style.backgroundColor = changeC()
+
+function changeC() { 
+var x = Math.floor(Math.random() * 256);
+    y = Math.floor(Math.random() * 256);
+    z = Math.floor(Math.random() * 256);
+    return  "rgb(" + x + "," + y + "," + z + ")";
+};
+
+</script>
+</body>
+</html>
