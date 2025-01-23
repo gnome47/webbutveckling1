@@ -1,0 +1,19 @@
+.top{
+    font-size: -10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: auto;
+    background-color: aqua;
+    height: 55px;
+    padding-top: 1em;
+    color: white;
+}
+
+.toptext{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 1px;
+}
+
+body{
+    margin: 0%;
+}
