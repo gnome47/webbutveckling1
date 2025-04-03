@@ -1,3 +1,7 @@
+body {
+    background-color: white;
+}
+
 .webb{
     text-align: center;
     font-size: 70px;
@@ -47,4 +51,17 @@
     position: absolute;
     right: 60px;
     top: 225px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .webb6{
+        position: relative;
+        right: auto;
+        top: auto;
+    }
+    .webb7{
+        position: relative;
+        right: auto;
+        top: auto;
+    }
 }
